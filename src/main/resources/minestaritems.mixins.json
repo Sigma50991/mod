@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "pl.minestaritems.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": ["ItemStackMixin", "ItemModelManagerMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

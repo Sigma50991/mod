@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "minestaritems",
+  "version": "${version}",
+  "name": "Minestar SkyPvP Items",
+  "description": "Menu z przedmiotami eventowymi Minestar SkyPvP (tylko wyglad po stronie klienta). Domyslnie otwierane klawiszem J, zmienisz w Controls.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["pl.minestaritems.MinestarItemsClient"] },
+  "mixins": ["minestaritems.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
